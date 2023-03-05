@@ -8,7 +8,8 @@
 html{
     scroll-behavior: smooth;
 }
-/*navbar*/
+
+/*------------------------------------------------------navbar------------------------------------------------------------------*/
 .navbar{
     display: flex;
     justify-content: center;
@@ -38,16 +39,14 @@ html{
     color: black;
     box-shadow: 0 0 10px white;
 }
+/*------------------------------------------------------offers page------------------------------------------------------------------*/
+
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
-.hero {
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-}
+
 .hero-image {
     width: 100%;
     height: 100%;
@@ -71,10 +70,10 @@ body {
 .card-container {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 100px;
 }
 .card {
-    width: 30%;
+    width: 40%;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
