@@ -54,18 +54,18 @@ body {
 
   }
 
-  .headings {
+  .headeroffer{
     font-family: century;
     font-size: 3rem;
     text-align: center;
-    color: black;
-
+    color: black;    
+    margin-bottom: 10px;
   }
 .photo-container {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    margin: 50px;
+    padding: 20px;
+    margin: 10px;
     
 }
 
