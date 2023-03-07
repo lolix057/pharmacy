@@ -124,12 +124,19 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     background-color:#0dc0f2;  
     margin:  auto;
     color: white;
+ 
+    
+}
+#footer-paragraph{
+
     line-height: 28px;
     font-size: 14px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 h3{
 color: #fff;
