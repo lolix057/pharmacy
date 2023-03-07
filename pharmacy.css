@@ -1,43 +1,56 @@
 
+/*------------------------------------------------------Generals------------------------------------------------------------------*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.headers{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    color: black;  
+    margin-bottom: 10px;  
+}
 /*------------------------------------------------------navbar------------------------------------------------------------------*/
-
-
-
 .navbar{
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color:#0dc0f2;
-    position: sticky;
-    top: 0;
-}
-.navbar ul{
-    display: flex;
-    list-style: none;
-    margin: 20px 0px;
-}
-.navbar ul li {
-    font-family: century;
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-.navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 8px 25px;
-    transition: all.5s ease;
-}
-.navbar ul li a:hover{
-    background-color: w#fff;
-    color: black;
-    box-shadow: 0 0 10px #fff;
-}
-.navbar h2{
+    width: 100%;
+    height: 70px;
+    z-index: 1;;
 
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 15%;
+}
+a{
+
+    margin: 15px;
+    color: white;
     text-decoration: none;
-    color: #fff;
-    padding: 8px 25px;
-    transition: all.5s ease;
+    text-transform: uppercase;
+}
+a:hover{
+
+color:#000;
+}
+.Home-area{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
 }
 
 
@@ -47,19 +60,20 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
     background-color: #fff;
 
   }
 
-  .headeroffer{
+  .header-offer{
     font-family: century;
     font-size: 3rem;
     text-align: center;
     color: black;    
     margin-bottom: 10px;
+
   }
 .photo-container {
     display: flex;
@@ -88,3 +102,4 @@ body {
     font-size: 1.7rem;
     
 }
+
