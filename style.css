@@ -43,7 +43,7 @@ header > a{
 }
 .department3{
     display: grid;
-    grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(2,auto);
 }
 .department2{
