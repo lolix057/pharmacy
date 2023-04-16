@@ -73,17 +73,17 @@ color:#000;
 }
 /*-----------------------------------Home -----------------------------------------*/
 .slider{
-/* 
-     height: 500px; 
-    margin: auto; */
+
+      height: 500px 
+    margin: auto; 
     /* position: relative; */
     /* width: 90%; */
     display: grid;
     /* place-items: top; */
     
-    height: 450px;
+    height: 350px;
     /* margin-top: 15px; */
-    /* overflow: auto; */
+     overflow: auto;  
     
 }
 
