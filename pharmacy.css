@@ -27,7 +27,7 @@ html{
     flex-wrap: wrap;
     background-color:#0dc0f2;
     width: 100%;
-    height:150 px;
+    height:190 px;
     z-index: 1;;
     
     opacity:90%;
@@ -73,17 +73,17 @@ color:#000;
 }
 /*-----------------------------------Home -----------------------------------------*/
 .slider{
-
-    /* height: 500px; */
-    margin: auto;
+/* 
+     height: 500px; 
+    margin: auto; */
     /* position: relative; */
     /* width: 90%; */
     display: grid;
     /* place-items: top; */
     
-    height: 350px;
+    height: 450px;
     /* margin-top: 15px; */
-    overflow: auto;
+    /* overflow: auto; */
     
 }
 
@@ -123,23 +123,23 @@ img{
     transition: transform 1s;
 }
 
-img:hover{
+ img:hover{
     transform: translateZ(20px);
-}
+} 
 
-.main{
-    margin-top: 1px;
+/* .main{
+    margin-top: 100px;
 
     font-family: arial;
     font-size: 17px; 
 
-}
-.paragraph-home{
+} */
+/* .paragraph-home{
     position: relative;
     max-width: 800px;
     margin-left:850px;
-}
-
+} */
+/* 
 .paragraph-home img{vertical-align: middle;}
 
 .paragraph-home .paragraph-home{
@@ -147,7 +147,7 @@ img:hover{
     bottom: 0;
     width: 100px;
     padding: 20px;
-}
+} */
 
 
 
