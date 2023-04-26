@@ -249,6 +249,35 @@ body {
     margin-left:20px ;
 } */
 
+/*------------------------------------------------------health tips------------------------------------------------------------------*/
+
+.photo-container-health{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+.photo-health{
+    width: 38%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 70px;
+}
+
+.photo-health img {
+    width: 90%;
+    height:auto;
+   
+}
+.photo-text-health{
+    margin-right:30px;
+    font-size: 1.5rem;
+    
+}
+
+
+
 
 /*------------------------------------------------------Footer------------------------------------------------------------------*/
 
