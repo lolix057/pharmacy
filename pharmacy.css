@@ -40,10 +40,11 @@ html{
     align-items: center;
     justify-items: center;
 }
-.logo-pharmacy{
+.logo-pharmsy{
     width: 40px;
     height: 40px;
-
+    /* margin: 0px; */
+    /* padding-left: 1px; */
 }
 .nav{
     display: flex;
