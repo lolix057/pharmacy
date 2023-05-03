@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Allergy-Sinus{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+ 
+}
+.arrow { 
+    margin-top: 10px;
+    margin-left: 10px;
+   color:#0dc0f2;
+ 
+}
+.link{
+    text-decoration: none;
+}
+.arrow_p{
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ .icon img{
+    width: 250px;
+    margin: 0;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.icon {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 30px;
+    width: 80%;
+}
+/* .p1{
+    margin-left: 10px;
+    
+}*/
+.cart{
+    border: 2px solid #0dc0f2;
+    border-radius: 30px;
+} 
+.div{
+    margin-left: 150px;
+    display: block;
+   
+}
