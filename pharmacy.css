@@ -164,12 +164,12 @@ img{
  
   .wrapper{
    
-    max-width: 350px;
+    max-width: 1600px;
     background: #fff;
-    padding: 100px;
+    padding: 60px;
     border-radius: 5px;
     box-shadow: 4px 4px 2px #08eaf2;
-    margin-left: 550px; 
+    margin-left:10px; 
     
   }
 
@@ -297,7 +297,7 @@ body {
    
 }
 .photo-text-health{
-    margin-right:30px;
+    margin-right:20px;
     font-size: 1.5rem;
     
 }
