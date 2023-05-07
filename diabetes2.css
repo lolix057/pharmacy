@@ -13,6 +13,10 @@ body{
 }
 h2{
     color: black;
+<<<<<<< HEAD
+=======
+    font-size: 50px;
+>>>>>>> parent of 9d08131 (Revert "Merge branch 'main' of https://github.com/lolix057/pharmacy")
     font-weight: 400;
 }
 h1{
