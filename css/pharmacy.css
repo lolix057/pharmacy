@@ -1,139 +1,126 @@
-
 /*------------------------------------------------------Generals------------------------------------------------------------------*/
- /* *{
+/* *{
     margin: 0;
     box-sizing: border-box;
 }
 
 /  */
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-.headers{
-    font-family: century;
-    font-size: 3rem;
-    text-align: center;
-    color: black;  
-    margin-bottom: 10px;  
+.headers {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
 }
 /*------------------------------------------------------navbar------------------------------------------------------------------*/
-.navbar{
-    /* position: fixed; */
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color:#0dc0f2;
-    width: 100%;
-    height:190 px;
-    z-index: 1;;
-    
-    opacity:90%;
-  
+.navbar {
+  /* position: fixed; */
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #0dc0f2;
+  width: 100%;
+  height: 190 px;
+  z-index: 1;
 
-
+  opacity: 90%;
 }
-.linkk{
-    margin: 32px;
-    align-items: center;
-    justify-items: center;
+.linkk {
+  margin: 32px;
+  align-items: center;
+  justify-items: center;
 }
-.logo-pharmsy{
-    width: 40px;
-    height: 40px;
-    /* margin: 0px; */
-    /* padding-left: 1px; */
+.logo-pharmsy {
+  width: 40px;
+  height: 40px;
+  /* margin: 0px; */
+  /* padding-left: 1px; */
 }
-.nav{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-right: 10%;
-    margin-top: 10px;
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: 10%;
+  margin-top: 10px;
 }
-a{
-
-    margin: 15px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
+a {
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-a:hover{
-
-color:#000;
+a:hover {
+  color: #000;
 }
-.Home-area{
-
-    position: relative;
-    width: 100%;
-    height: 50vh;
-
+.Home-area {
+  position: relative;
+  width: 100%;
+  height: 50vh;
 }
 /*-----------------------------------Home -----------------------------------------*/
-.slider{
+.slider {
+  height: 500px margin auto;
+  /* position: relative; */
+  /* width: 90%; */
+  display: grid;
+  /* place-items: top; */
 
-      height: 500px 
-    margin  auto; 
-    /* position: relative; */
-    /* width: 90%; */
-    display : grid;
-    /* place-items: top; */
-    
-    height: 350px;
-    /* margin-top: 15px; */
-     overflow: hidden;  
-    
+  height: 350px;
+  /* margin-top: 15px; */
+  overflow: hidden;
 }
 
-.slide-track{
-    display: flex;
-    margin-top: 100px;
-    width: calc(250px*18);
-    animation: scroll 40s linear infinite;
+.slide-track {
+  display: flex;
+  margin-top: 100px;
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
 }
- .slide-track:hover{
-    animation-play-state: paused;
-} 
-
- @keyframes scroll {
-    0%{
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(-250px*9));
-    }
-} 
-
- .slide{
-
-    height: 250px;
-    width: 700px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    perspective: 100px;
-} 
-
-img{
-    width: 100%;
-    
-    transition: transform 1s;
+.slide-track:hover {
+  animation-play-state: paused;
 }
 
-  img:hover{
-    transform: translateZ(20px);
-}  
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
 
- .main{
-    margin-top: 30px;
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
 
-    font-family: arial;
-    font-size: 17px; 
+.slide {
+  height: 250px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
 
-} 
+img {
+  width: 100%;
+
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: translateZ(20px);
+}
+
+.main {
+  margin-top: 30px;
+
+  font-family: arial;
+  font-size: 17px;
+}
 /* .paragraph-home{
     position: relative;
     max-width: 800px;
@@ -149,127 +136,112 @@ img{
     padding: 20px;
 } */
 
-
 /*------------------------------------------------------- contact us---------------------------------------------------*/
 
+.cu {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+}
 
-.cu{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    font-family: 'Josefin Sans', sans-serif;
-    
-  }
- 
-  .wrapper{
-   
-    max-width: 1600px;
-    background: #fff;
-    padding: 60px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 2px #08eaf2;
-    margin-left:10px; 
-    
-  }
+.wrapper {
+  max-width: 1600px;
+  background: #fff;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #08eaf2;
+  margin-left: 10px;
+}
 
-  .wrapper h2{
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #332902;
-  }
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
 
-  .wrapper .input_field{
-    margin-bottom: 10px;
-  }
+.wrapper .input_field {
+  margin-bottom: 10px;
+}
 
-  .wrapper .input_field input[type="text"],
-.wrapper textarea{
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
   border: 1px solid #e0e0e0;
   width: 100%;
   padding: 10px;
 }
 
-.wrapper textarea{
-    resize: none;
-    height: 80px;
-  }
- 
-  .wrapper .btn input[type="submit"]{
-    border: 0px;
-    margin-top: 15px;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    background: #0ceafe;
-    color: #332902;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: bold;
-    border-radius: 25px;
-    cursor: pointer;
-  }
-  
-  
-  #error_message{
-    margin-bottom: 20px;
-    background: #fe8b8e;
-    padding: 0px;
-    text-align: center;
-    font-size: 14px;
-    transition: all 0.5s ease;
-  }
+.wrapper textarea {
+  resize: none;
+  height: 80px;
+}
 
+.wrapper .btn input[type="submit"] {
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #0ceafe;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message {
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
 
 /*------------------------------------------------------offers page------------------------------------------------------------------*/
 
-
-
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-    background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: #fff;
+}
 
-  }
-
-  .header-offer{
-    font-family: century;
-    font-size: 3rem;
-    text-align: center;
-    color: black;    
-    margin-bottom: 10px;
-
-  }
+.header-offer {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
 .photo-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 10px;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
 }
 
 .photo {
-    width: 38%;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin-left: 70px;
-   
+  width: 38%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-left: 70px;
 }
 
 .photo img {
-    width: 90%;
-    height:auto;
-   
+  width: 90%;
+  height: auto;
 }
 
 .photo-text {
-    margin-right: 30px;
-    font-size: 1.7rem;
-    
+  margin-right: 30px;
+  font-size: 1.7rem;
 }
 /* .image-offers{
     margin-left:20px ;
@@ -277,137 +249,116 @@ body {
 
 /*------------------------------------------------------health tips------------------------------------------------------------------*/
 
-.photo-container-health{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 10px;
+.photo-container-health {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
 }
-.photo-health{
-    width: 38%;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin-left: 70px;
+.photo-health {
+  width: 38%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-left: 70px;
 }
 
 .photo-health img {
-    width: 90%;
-    height:auto;
-   
+  width: 90%;
+  height: auto;
 }
-.photo-text-health{
-    margin-right:20px;
-    font-size: 1.5rem;
-    
+.photo-text-health {
+  margin-right: 20px;
+  font-size: 1.5rem;
 }
 /*------------------------------------------------------ABOUT_US------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
 /*------------------------------------------------------PAYMENT------------------------------------------------------------------*/
-.btnn{
-    border-radius: 40px;
-    border: 0;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin: 1rem 0;
-    padding: 2rem 3rem;
-    text-transform: uppercase;
-    white-space: nowrap;
-    background-color: #0dc0f2;
-    width:98% ;
+.btnn {
+  border-radius: 40px;
+  border: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #0dc0f2;
+  width: 98%;
 }
 
 /*------------------------------------------------------Footer------------------------------------------------------------------*/
 
-
-.footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color:white;
-    height: auto;
-    padding-top: 40px;
-    width: 100vw;
-    color:white;
-    width: 100%;
-
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: auto;
+  padding-top: 40px;
+  width: 100vw;
+  color: white;
+  width: 100%;
 }
-.Footer-Area{
-    display: flex;
-    
-    /* align-items: center; */
-    justify-content: start;
-    flex-direction: column;
-    flex-direction: row;
-    background-color:#0dc0f2;  
-    margin:  auto;
-    opacity:65%;
-    
- 
-    
+.Footer-Area {
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: start;
+  flex-direction: column;
+  flex-direction: row;
+  background-color: #0dc0f2;
+  margin: auto;
+  opacity: 65%;
 }
-.Footer-Area h3{
-    align-items: start;
-    margin-left: 30px;
+.Footer-Area h3 {
+  align-items: start;
+  margin-left: 30px;
 }
 .Footer-Area h4 {
-    margin: 20px;
-    margin-left: 90px;
+  margin: 20px;
+  margin-left: 90px;
 }
-.Footer-Area .p{
+.Footer-Area .p {
   color: rgb(173, 74, 8);
   margin-top: 10px;
 }
-.Footer-Area p{
-    margin-left: 90px;
-
-    
+.Footer-Area p {
+  margin-left: 90px;
 }
-.Footer-Area .child2 a{
-    margin: 100px;
-    line-height: 60px;
+.Footer-Area .child2 a {
+  margin: 100px;
+  line-height: 60px;
 }
-.asd{
-    width: 100px;
+.asd {
+  width: 100px;
 }
 
-
-#footer-paragraph{
-
-    line-height: 28px;
-    font-size: 14px;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    word-spacing: 3.5px;
-    color:#fff;
+#footer-paragraph {
+  line-height: 28px;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  word-spacing: 3.5px;
+  color: #fff;
 }
-h3{
-color: #fff;
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 4rem;
-    
-    
+h3 {
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 4rem;
 }
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 1rem 0 3rem 0 ;
-
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 3rem 0;
 }
-.asd2{
-    color: #fff;
-    font-size: larger;
-    margin-top:25px ;
+.asd2 {
+  color: #fff;
+  font-size: larger;
+  margin-top: 25px;
 }
